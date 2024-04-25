@@ -15,7 +15,7 @@ main()
 	
 	while(d<=p){
 		
-		if(d %4 && d!=100){
+		if((d%4==0 && d%100!=0)||(d%400==0)){
 			
 			printf("leap year is %d\n",d);
 		}
